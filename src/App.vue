@@ -5,7 +5,7 @@
   export default{
     name:'app',
     components:{
-      NavComp,
+      HeaderComp,
     },
     data(){
       return{
