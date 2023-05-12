@@ -92,14 +92,20 @@
                             <a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn">GET IN TOUCH</button>
+                            <button type="button" class="btn btn-1">GET IN TOUCH</button>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <h1>Financial Risk</h1>
+        <div class="jumbo-text">
+            <h1>Financial Risk</h1>
+            <p class="my-4">The right outcomes depend on continuous rigor in governance, models, and processes across the finance function.</p>
+            <button type="button" class="btn btn-1 me-2">GET IN TOUCH</button>
+            <button type="button" class="btn btn-2 ms-2">READ MORE</button>
+        </div>
+        
     </div>
 </template>
 
@@ -125,12 +131,20 @@
     filter: brightness(70%);
 }
 
-.btn{
+.btn-1{
     background-color: #098081;
     color: #e7eee9;
     font-weight: 600;
     padding: 0.6rem 1.8rem 0.6rem 1.8rem;
     font-size: 17px;
+}
+
+.btn-2{
+    font-weight: 600;
+    padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+    font-size: 17px;
+    color: #e7eee9;
+    border: 1px solid #098081;
 }
 
 .nav-item{
@@ -160,6 +174,24 @@
     color: #bcbdbd;
     font-size: 22px;
     font-weight: bold;
+}
+
+.jumbo-text{
+    position: absolute;
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    h1{
+        font-size: 80px;
+    }
+    p{
+        font-size: 20px;
+        color: #bcbdbd;
+    }
 }
 
 </style>
