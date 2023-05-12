@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# Progetto di metá corso
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Studente: Andrea Mastrovito
 
-## Recommended IDE Setup
+Classe: 93#
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Data inizio: 12/05/2023
+
+Data consegna: 16/05/2023 ore 18:00
+
+Questo é il mio progetto di metá corso.
