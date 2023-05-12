@@ -1,5 +1,5 @@
 <script >
-  import NavComp from './components/NavComp.vue';
+  import HeaderComp from './components/HeaderComp.vue';
   import { store } from './store';
 
   export default{
@@ -16,7 +16,7 @@
 </script>
 
 <template>
-  <NavComp/>
+  <HeaderComp/>
 </template>
 
 <style lang="scss">
