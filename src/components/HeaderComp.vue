@@ -42,13 +42,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../../public/img/bg-2.jpg" class="d-block w-100" alt="...">
+                    <img src="../../img/bg-2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../public/img/bg-1.jpg" class="d-block w-100" alt="...">
+                    <img src="../../img/bg-1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../public/img/bg-3.jpg" class="d-block w-100" alt="...">
+                    <img src="../../img/bg-3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"        data-bs-slide="prev">
@@ -159,21 +159,6 @@
         }
     }
     
-}
-
-.logo-1{
-    color: #52babb;
-    font-size: 22px;
-    font-weight: bold;
-    background-color: rgba(82, 186, 187, 0.3);
-    padding: 0.4rem 0 0.4rem 2rem;
-    border-radius: 50px 0 0 50px;
-}
-
-.logo-2{
-    color: #bcbdbd;
-    font-size: 22px;
-    font-weight: bold;
 }
 
 .jumbo-text{
