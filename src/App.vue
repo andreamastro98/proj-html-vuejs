@@ -5,6 +5,7 @@
   import ResultsComp from './components/ResultsComp.vue';
   import BusinessAreaComp from './components/BusinessAreaComp.vue';
   import ExpertComp from './components/ExpertComp.vue'
+  import NewsComp from'./components/NewsComp.vue'
 
   export default{
     name:'app',
@@ -14,6 +15,7 @@
       ResultsComp,
       BusinessAreaComp,
       ExpertComp,
+      NewsComp,
     },
     data(){
       return{
@@ -30,6 +32,7 @@
     <ResultsComp/>
     <BusinessAreaComp/>
     <ExpertComp/>
+    <NewsComp/>
   </main>
 </template>
 
