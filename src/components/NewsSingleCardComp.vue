@@ -37,7 +37,7 @@ img{
 
 p{
     position: relative;
-    color: white;
+    color: #F9F9F9;
     bottom: 9rem;
     margin: 2rem;
     font-size: 23px;
