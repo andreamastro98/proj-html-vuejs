@@ -4,6 +4,7 @@
   import AdvPerfComp from './components/AdvPerfComp.vue';
   import ResultsComp from './components/ResultsComp.vue';
   import BusinessAreaComp from './components/BusinessAreaComp.vue';
+  import ExpertComp from './components/ExpertComp.vue'
 
   export default{
     name:'app',
@@ -11,7 +12,8 @@
       HeaderComp,
       AdvPerfComp,
       ResultsComp,
-      BusinessAreaComp
+      BusinessAreaComp,
+      ExpertComp,
     },
     data(){
       return{
@@ -27,6 +29,7 @@
     <AdvPerfComp style="margin-top: 1000px;"/>
     <ResultsComp/>
     <BusinessAreaComp/>
+    <ExpertComp/>
   </main>
 </template>
 
