@@ -15,6 +15,24 @@
     font-weight: bold;
 }
 
+.container-2 {
+    padding: 7rem 0 7rem 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container-3 {
+    padding: 7rem 0 7rem 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.white {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+}
+
 .green-text{
     color: #048383;
     background-color: rgba(82, 186, 187, 0.3);
@@ -23,7 +41,7 @@
 }
 
 .small-green-text{
-    color: #098081;
+    color: #60a9ad;
     font-size: 14px;
     font-weight: bold;
 }
@@ -36,4 +54,32 @@
 .highlighted-text-2 {
     background-color: rgba(82, 186, 187, 0.2);
     padding: 0 0.7rem 0 0.7rem;
+}
+
+.btn-1 {
+    background-color: #098081;
+    color: #e7eee9;
+    font-weight: 600;
+    padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+    font-size: 17px;
+}
+
+.btn-2 {
+    font-weight: 600;
+    padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+    font-size: 17px;
+    color: #e7eee9;
+    border: 1px solid #098081;
+}
+
+.white-2 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.white-3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
 }

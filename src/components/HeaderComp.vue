@@ -131,22 +131,6 @@
     filter: brightness(70%);
 }
 
-.btn-1{
-    background-color: #098081;
-    color: #e7eee9;
-    font-weight: 600;
-    padding: 0.6rem 1.8rem 0.6rem 1.8rem;
-    font-size: 17px;
-}
-
-.btn-2{
-    font-weight: 600;
-    padding: 0.6rem 1.8rem 0.6rem 1.8rem;
-    font-size: 17px;
-    color: #e7eee9;
-    border: 1px solid #098081;
-}
-
 .nav-item{
     a{
         color: #e7eee9;

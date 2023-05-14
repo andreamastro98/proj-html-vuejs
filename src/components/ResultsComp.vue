@@ -38,17 +38,6 @@
 
 <style lang="scss" scoped>
 
-.container-2{
-    padding: 7rem 0 7rem 0;
-    width: 50%;
-    margin: 0 auto;    
-}
-
-.white{
-    font-size: 3.5rem;
-    color: white;
-    font-weight: bold;
-}
 .bg{
     background-image: url(../../public/img/adrian-schwarz-XS7q-baZrmE-unsplash.jpg);
     background-repeat: no-repeat;
@@ -62,9 +51,4 @@
     color: #098081;
 }
 
-.white-2{
-    font-weight: bold;
-    font-size: 2rem;
-    color: white;
-}
 </style>

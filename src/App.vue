@@ -3,13 +3,15 @@
   import { store } from './store';
   import AdvPerfComp from './components/AdvPerfComp.vue';
   import ResultsComp from './components/ResultsComp.vue';
+  import BusinessAreaComp from './components/BusinessAreaComp.vue';
 
   export default{
     name:'app',
     components:{
       HeaderComp,
       AdvPerfComp,
-      ResultsComp
+      ResultsComp,
+      BusinessAreaComp
     },
     data(){
       return{
@@ -24,6 +26,7 @@
   <main>
     <AdvPerfComp style="margin-top: 1000px;"/>
     <ResultsComp/>
+    <BusinessAreaComp/>
   </main>
 </template>
 
