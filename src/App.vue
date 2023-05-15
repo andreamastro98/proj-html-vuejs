@@ -7,6 +7,8 @@
   import ExpertComp from './components/ExpertComp.vue'
   import NewsComp from'./components/NewsComp.vue'
   import NewsLetterComp from './components/NewsLetterComp.vue'
+  import MessageComp from './components/MessageComp.vue'
+  import FooterComp from './components/FooterComp.vue'
 
   export default{
     name:'app',
@@ -18,6 +20,8 @@
       ExpertComp,
       NewsComp,
       NewsLetterComp,
+      MessageComp,
+      FooterComp
     },
     data(){
       return{
@@ -36,7 +40,9 @@
     <ExpertComp/>
     <NewsComp/>
     <NewsLetterComp/>
+    <MessageComp/>
   </main>
+  <FooterComp/>
 </template>
 
 <style lang="scss">

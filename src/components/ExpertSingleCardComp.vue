@@ -47,14 +47,5 @@ p{
     text-transform: uppercase;
     font-size: 15px;
 }
-.round{
-    background-color: #DAECED;
-    color: #058283;
-    border-radius: 50%;
-    margin-right: 5px;
-    line-height: 40px;
-    width: 40px;
-    text-align: center;
-}
 
 </style>

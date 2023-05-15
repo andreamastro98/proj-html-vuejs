@@ -59,4 +59,9 @@
     background-color: #EEF4ED;
 }
 
+p{
+    color: #676669;
+    font-size: 17px;
+}
+
 </style>

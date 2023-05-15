@@ -64,6 +64,7 @@
     font-weight: 600;
     padding: 0.6rem 1.8rem 0.6rem 1.8rem;
     font-size: 17px;
+    text-transform: uppercase;
 }
 
 .btn-2 {
@@ -72,6 +73,7 @@
     font-size: 17px;
     color: #e7eee9;
     border: 1px solid #098081;
+    text-transform: uppercase;
 }
 
 .white-2 {
@@ -89,6 +91,20 @@
 .span-title{
     font-weight: bold;
     font-size: 3.5rem;
+}
+
+.width-45 {
+    width: 45%;
+}
+
+.round {
+    background-color: #DAECED;
+    color: #058283;
+    border-radius: 50%;
+    margin-right: 5px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
 }
 
 

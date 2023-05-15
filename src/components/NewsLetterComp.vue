@@ -7,7 +7,7 @@
 <template>
     <div class="bg">
         <div class="container-4 d-flex justify-content-between">
-            <div class="width">
+            <div class="width-45">
                 <span class="small-green-text">newsletter</span>
                 <div class="my-3">            
                     <span class="highlighted-text-2 white">Know</span>
@@ -15,7 +15,7 @@
                 </div>
                 <p>Follow closely and receivecontent aboutour company and the news of the current market.</p>
             </div>
-            <div class="width">
+            <div class="width-45">
                 <input class="form-control form-control-lg mt-3 mb-4" type="text" placeholder="name" aria-label=".form-control-lg example">
 
                 <input class="form-control form-control-lg mb-4" type="email" placeholder="email" aria-label=".form-control-lg example">
