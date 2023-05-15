@@ -10,16 +10,20 @@
             <div class="container d-flex justify-content-between">
                 <div>
                     <span>
-                        <i class="fa-solid fa-clock mx-2"></i>Open Hours: Mon - Sat - 9:00 - 18:00
+                        <a href="#"><i class="fa-solid fa-clock mx-2"></i>Open Hours: Mon - Sat - 9:00 - 18:00</a>                        
                     </span>
                 </div>
                 <div>
-                    <span class="me-3">
-                        <i class="fa-solid fa-phone"></i> +1(305) 1234-5678
-                    </span>
-                    <span class="mx-3">
-                        <i class="fa-solid fa-envelope"></i> hello@example.com
-                    </span>
+                    <a href="#">
+                        <span class="me-3">
+                            <i class="fa-solid fa-phone"></i> +1(305) 1234-5678
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="mx-3">
+                            <i class="fa-solid fa-envelope"></i> hello@example.com
+                        </span>
+                    </a>  
                     <span class="mx-3">
                         <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
                     </span>
@@ -119,9 +123,20 @@
 .info-nav{
     padding: 0.9rem 0 0.9rem 0;
     background-color: #21333E;
-    i,span{
+    i,span,a{
         color: #C0C3D0;
+        transition: color 1s;
     }
+    &:hover a{
+        color: #048383;
+    }
+    &:hover i{
+        color: #048383;
+    }
+    &:hover span{
+        color: #048383;
+    }
+
 }
 
 .bg-jumbo{

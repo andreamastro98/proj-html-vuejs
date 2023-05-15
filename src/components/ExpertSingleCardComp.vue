@@ -13,7 +13,7 @@
 </script>
 
 <template>
-    <div class="width my-3 d-flex align-items-center">
+    <div class="width my-3 d-flex align-items-center item">
         <img :src="path + singlecard.img" :alt="singlecard.name">
         <div class="mx-4">
             <h5>{{ singlecard.name }}</h5>
@@ -27,6 +27,15 @@
 
 <style lang="scss" scoped>
 
+.item{
+    position: relative;
+    bottom: 0;
+    transition: bottom 0.5s;
+    cursor: pointer;
+    &:hover{
+        bottom: 15px;
+    }
+}
 .width{
     width: 45%;
 }

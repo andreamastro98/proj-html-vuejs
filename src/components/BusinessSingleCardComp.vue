@@ -26,6 +26,13 @@
 
 .card{
     width: 30%!important;
+    position: relative;
+    bottom: 0;
+    transition: bottom 0.5s;
+    cursor: pointer;
+    &:hover{
+        bottom: 20px;
+    }
 }
 
 p{

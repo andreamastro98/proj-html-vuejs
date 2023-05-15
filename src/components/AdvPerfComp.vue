@@ -15,7 +15,11 @@
         
         <p class="mb-5">Financial executives need to review their strategies, operating models and capabilities so that their <br> areas can generate sound information for better decision making.</p>
 
-        <img src="../../public/img/video-1.jpg" alt="">
+        <div id="img">
+            <img src="../../public/img/video-1.jpg" alt="">
+            <a href="#"><i class="fa-solid fa-play"></i></a>
+        </div>
+        
     </div>
 </template>
 
@@ -39,6 +43,17 @@ img{
     }
 }
 
-
+i{
+    position: relative;
+    color: rgba(255,255,255,0.5);
+    right: 36%;
+    font-size: 50px;
+    transform: translate( 0, 36% );
+    transition: font-size 1s, color 1s;
+    &:hover {
+        font-size: 70px ;
+        color: rgba(255,255,255,0.9)
+    }
+}
 
 </style>
