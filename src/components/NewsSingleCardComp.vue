@@ -13,7 +13,7 @@
 </script>
 
 <template>
-    <div>
+    <div class="col-4">
         <img :src="path + singlecard.img" :alt="singlecard.img">
         <p>{{ singlecard.title }}</p>
     </div>
@@ -27,6 +27,12 @@ div{
     width: 31%;
     text-align: center;
     margin-bottom: -5rem;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.6;
+    }
 }
 
 img{

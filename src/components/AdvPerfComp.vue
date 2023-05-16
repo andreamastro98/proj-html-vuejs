@@ -29,6 +29,7 @@
 
 img{
     width: 70%;
+    border-radius: 10px;
 }
 
 .container{
